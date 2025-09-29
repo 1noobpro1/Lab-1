@@ -1,12 +1,11 @@
 str = input("Введите строку: ")
 n = ' '
-
 for char in str:
     if char.isdigit():
-        n +=char
+        n += char
     else:
-        if n!= ' ':
+        if n != ' ':
             print(n)
             n = ' '
-if n !=' ':
+if n != ' ':
     print(n)
